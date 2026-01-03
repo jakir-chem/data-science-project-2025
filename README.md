@@ -27,14 +27,16 @@ The project aims to investigate how effectively various machine learning methods
 Benchmark these models against PepMNet, a pretrained hierarchical graph‑based model that incorporates both atom‑level and amino‑acid‑level information.
 
 ## Directory Structure
-data_science_project_2025/
-├── data_science_project_2025.ipynb # Main Jupyter notebook (analysis and modeling)
-├── hela_mod3.csv # Dataset of modified peptides (HeLa cells)
-├── yeast_unmod.csv # Dataset of unmodified peptides (yeast)
-├── saved_csv_features/ # Generated feature CSVs (BoW, One-Hot, etc.)
-├── final_plots/ # Output plots summarizing model performance
-├── model_outputs/ # Saved trained models (.pkl files)
-├── results/ # Results directory
-│ └── RT/ # Train/test split XLSX files for RT prediction
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+| File / Directory | Description |
+|------------------|-------------|
+| `data_science_project_2025.ipynb` | Main Jupyter notebook containing all analysis, feature extraction, model training, and evaluation |
+| `hela_mod3.csv` | Dataset of modified peptides from HeLa cell experiments |
+| `yeast_unmod.csv` | Dataset of unmodified peptides from yeast |
+| `saved_csv_features/` | Generated feature and output CSV files (e.g., Bag-of-Words, One-Hot encodings, physicochemical descriptors) |
+| `final_plots/` | Final plot images summarizing model performance and comparisons |
+| `model_outputs/` | Saved trained machine learning models (`.pkl` files) |
+| `results/` | Directory containing processed results |
+| `results/RT/` | Excel (`.xlsx`) files with training/testing splits for retention time prediction |
+| `README.md` | Project documentation and usage instructions |
+| `requirements.txt` | Python dependencies required to run the project |
+
