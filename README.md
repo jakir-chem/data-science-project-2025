@@ -4,7 +4,7 @@
 Understanding peptide retention time (RT) in liquid chromatography is crucial for enhancing peptide identification and separation. Peptide RT refers to the time it take to elude from a liquid chromatography column. RT is primarily determined by peptide hydrophobicity, sequence, and other physicochemical properties. I chose this topic as a learning exercise to explore fundamental aspects of feature representation of peptide in machine learning to predict RT of experimental dataset. Since both peptide sequence and chemistry influence peptide properties like RT, it is worthwhile to investigate how simple sequence- and chemistry-based feature representations can improve model performance. In this context, starting with a basic amino acid count-based approach for peptide RT prediction provides a useful foundation. Additionally, examining how data dimensionality impacts predictive performance may offer further insights.
 
 ### Dataset
-I am using two datasets from the [PepMNet RT Data repository](https://github.com/danielgarzonotero/PepMNet/tree/main/data/RT):  
+I used two datasets from the [PepMNet RT Data repository](https://github.com/danielgarzonotero/PepMNet/tree/main/data/RT):  
 
 | Dataset | LC Type | Number of Peptides |
 |---------|---------|------------------|
@@ -24,7 +24,8 @@ The project aims to investigate how effectively various machine learning methods
 
 2. Assess the performance of multiple machine learning models: Linear Regression, Kernel Ridge Regression, and XGBoost—using each of the three feature representations for peptide RT prediction.
 
-Benchmark these models against PepMNet, a pretrained hierarchical graph‑based model that incorporates both atom‑level and amino‑acid‑level information.
+3. Benchmark these models against PepMNet, a pretrained hierarchical graph‑based model that incorporates both atom‑level and amino‑acid‑level information.
+
 
 ## Directory Structure
 | File / Directory | Description |
