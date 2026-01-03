@@ -1,0 +1,9 @@
+## Installation
+1. Clone the repository or download the project files.
+2. Ensure Python 3.11.5 is installed (e.g., via pyenv or conda).
+3. Install dependencies. Key libraries include:
+- pandas for data handling
+- numpy for numerical operations
+- scikit-learn for models (LinearRegression, KernelRidge) and metrics
+- xgboost for XGBoost regressor
+- matplotlib and seaborn for visualizations
