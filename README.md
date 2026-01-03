@@ -28,13 +28,12 @@ Benchmark these models against PepMNet, a pretrained hierarchical graph‑based 
 
 ## Directory Structure
 data_science_project_2025/
-├── data_science_project_2025.ipynb     # Main Jupyter Notebook with code and analysis
-├── hela_mod3.csv                       # Dataset for modified peptides from HeLa cells
-├── yeast_unmod.csv                     # Dataset for unmodified peptides from yeast
-├── saved_csv_features/                 # Generated feature and output CSV files (e.g., BoW, One-Hot, etc.)
-├── final_plots/                        # Output plot images summarizing model performance
-├── model_outputs/                      # Saved model files (.pkl) for trained models
-├── results/                            # Results directory
-│   └── RT/                             # XLSX files with train/test splits for retention time predictions
-├── README.md                           # This file
-└── requirements.txt                    # Python dependencies
+├── data_science_project_2025.ipynb   # Main analysis, model training, and evaluation
+├── hela_mod3.csv                     # Dataset: Modified peptides (HeLa cells)
+├── yeast_unmod.csv                   # Dataset: Unmodified peptides (Yeast)
+├── saved_csv_features/               # Generated feature sets (BoW, One-Hot, etc.)
+├── final_plots/                      # Visualizations of model performance
+├── model_outputs/                    # Serialized trained models (.pkl)
+├── results/                          # Performance metrics and RT prediction splits
+├── README.md                         # Project documentation
+└── requirements.txt                  # Python library dependencies
